@@ -1,0 +1,28 @@
+{
+  "name": "boteco-seu-ze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "2.3",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "6.8.0",
+    "eslint-config-trybe-backend": "1.0.1",
+    "mocha": "^10.0.0",
+    "nodemon": "2.0.15",
+    "sinon": "^14.0.0"
+  }
+}
